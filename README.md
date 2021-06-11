@@ -1,15 +1,11 @@
-# An Analysis of Kickerstarter Campaigns
-Outcomes by Category, Subcategory, and Date were analyzed. Mean, median, and IQR was found for both successful and failed play kickstarter campaigns. Boxplot was added for musicals.
+# Kickstarter Challenge
+## Overview
+#### The purpose of this project was to analyze data of kickstarter funding programs to help determine if a potential client, Louise, could continue to fund a play. Outcomes of kickstarter programs were graphed based off of initial goal price and months sorted by the category Louise had interest in, plays. This was then used to help Louise determine if her goal of £4,000 was too much, given the time of year. 
 ---
-![Outcomes by Category Chart](https://user-images.githubusercontent.com/85752084/121712379-ede54f00-ca98-11eb-98f1-ef11473997b2.png)
----
-#### Stacked box chart of Outcomes by Category in All Kickstarter Data.
----
-![Outcomes by Month](https://user-images.githubusercontent.com/85752084/121712392-f178d600-ca98-11eb-89cf-2d6be4096519.png)
----
-#### Stacked box chart of Outcomes by Month in All Kickstarter Data.
----
-![Box Plot of Musical Kickstarters](https://user-images.githubusercontent.com/85752084/121712398-f3429980-ca98-11eb-9ff6-30d761fe30a7.png)
-#### Box plot of musical kickstarters with goal in blue and pledged in orange.
----
-## Advice: The goal of £4,000 is the mean in musical kickstarters. This is higher than the median. There would be a much higher chance of success if the goal could be as low as possible. Something like £2,000 would be much more probable to succeed.
+## Analysis
+#### Image of Outcomes by Month.
+This graph shows the variablity in success of theater campaigns by the month they were started in. Across all months, success of theater campaigns occurred more frequently than failed and canceled campaigns. October through January has a much closer ratio of failed to successful campaigns, while May through July has a much higher probability of success. May is the month with the most percentage of success. Canceled campaigns had a very low count throughout the entire year. Louise is not intended to cancel the kickstarter, so given that most campaigns do not cancel, this information can be given less weight for her final decision. 
+#### Image of Outcomes by Goal Amount
+This graph shows the probabilty of success of a play campaign by the goal amount. This shows a upward trend in failures to successes until around $30,000, where the trend starts to lose meaning as the number of campaigns with this high of a goal starts to twindle to below 20. The point where the successes and failures meet is in the $15,000 to $19999 category. This would mean for all theater campaigners, the goal would be to get this initial amount below $15,000. Louise's goal is £4,000, which is roughly $5,500 in USD, so the higher variable goal data will not be stressed. For Louise, the goal category she falls in, $5000 to $9999, is the first point where the failures make a dramatic jump towards successes. There are still more successful campaigns, but the probability gets much lower. The goal amount Louise should be looking towards in the $1000 to $4999 mark where her chances are much higher.
+## Challenges
+#### There could be several challenges while looking at data like this. One is that there is not enough data. The outcomes by goal chart shows how the data can become much more skewed as the number of data points decreases. In addition, as the filters get more specific, the same thing happens, so Great Britain was not used as the deciding factor in this case study because there is not enough data. This means, for Louise in Great Britain, the data might be a little different, but it should be close to the same.
